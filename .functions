@@ -244,3 +244,13 @@ function o() {
 function tre() {
 	tree -aC -I '.git|node_modules|bower_components' --dirsfirst "$@" | less -FRNX;
 }
+
+function myip() # Get IP adress on ethernet.
+{
+    MY_IP=$(/sbin/ifconfig en0 | awk '/inet / { print $2 } ')
+    echo ${MY_IP:-"Not connected"}
+}
+
+function myps() { /bin/ps -e -o pid,%cpu,%mem,command; }
+function mypsg() { myps | grep $1; }
+

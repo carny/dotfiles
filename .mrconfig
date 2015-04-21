@@ -1,0 +1,3 @@
+
+[workspace/goodsnitch/goodsnitch_web]
+checkout = git clone 'https://github.com/goodsnitch/goodsnitch_web.git' 'goodsnitch_web'
