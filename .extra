@@ -5,3 +5,5 @@ git config --global user.name 'Carny Cheng'
 if [ -f `brew --prefix`/etc/bash_completion.d/git-completion.bash ]; then
     . `brew --prefix`/etc/bash_completion.d/git-completion.bash
 fi
+
+eval "$(rbenv init -)"
