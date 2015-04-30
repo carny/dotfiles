@@ -8,7 +8,7 @@ alias -- -="cd -"
 
 # Shortcuts
 alias dl="cd ~/Downloads"
-alias w="cd ~/workspace"
+alias gs="cd ~/workspace"
 alias g="git"
 alias h='history | grep $1'
 alias j="jobs -l"
