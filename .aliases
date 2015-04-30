@@ -7,12 +7,10 @@ alias ~="cd ~" # `cd` is probably faster to type though
 alias -- -="cd -"
 
 # Shortcuts
-alias h='history | grep $1'
-
 alias dl="cd ~/Downloads"
-alias p="cd ~/projects"
+alias w="cd ~/workspace"
 alias g="git"
-alias h="history"
+alias h='history | grep $1'
 alias j="jobs -l"
 
 alias po='popd'
@@ -21,8 +19,6 @@ alias pd2='pushd +2'
 alias pd3='pushd +3'
 alias pd4='pushd +4'
 alias which='type -a'
-alias ..='cd ..'
-alias ...='cd ../..'
 
 alias du='du -kh'
 alias df='df -kh'
